@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN set -ex; \
-    apk add --update --no-cache tzdata bash certbot curl jq openssh-client; \
+    apk add --update --no-cache tzdata bash certbot curl jq openssh-client bind-tools; \
     mkdir -p ~/.ssh; chmod 700 ~/.ssh
 
 LABEL org.opencontainers.image.title=useful-tools \
