@@ -6,3 +6,4 @@ This image contains some tools that i use in my scripts:
 - Curl
 - Jq
 - OpenSSH client
+- Bind-Tools
