@@ -5,5 +5,5 @@ RUN set -ex; \
     mkdir -p ~/.ssh; chmod 700 ~/.ssh
 
 LABEL org.opencontainers.image.title=useful-tools \
-      org.opencontainers.image.description="Bash, Certbot, Curl, Jq, OpenSSH client" \
+      org.opencontainers.image.description="Bash, Certbot, Curl, Jq, OpenSSH client, Openssl, Coreutils" \
       org.opencontainers.image.vendor=starina
