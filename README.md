@@ -7,3 +7,5 @@ This image contains some tools that i use in my scripts:
 - Jq
 - OpenSSH client
 - Bind-Tools
+- Openssl
+- Coreutils
