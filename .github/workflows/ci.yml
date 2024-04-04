@@ -1,4 +1,4 @@
-name: ci
+name: CI
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
@@ -54,6 +54,7 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=semver,pattern={{major}}
             type=ref,event=pr
+            type=edge
           labels: |
             org.opencontainers.image.title=useful-tools
             org.opencontainers.image.description=Bash, Certbot, Curl, Jq, OpenSSH Client, Bind-Tools, Openssl, Coreutils
